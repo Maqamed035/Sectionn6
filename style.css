@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.section6 h1 {
+    font-family: "Roboto Slab";
+    font-size: 55px;
+    font-weight: bold;
+    /* margin:91px 331px 596px 121px; */
+    margin-top: 91px ;
+    margin-left: 122px;
+    
+    
+}
+.container6{
+    width: 791px;
+    height: 451px;
+    background-color:white;
+    border-radius:30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-left:  126px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 90px 200px 111px 126px ;
+    
+    
+    
+}
+body{
+    background-color: #EFEFEF;
+    height: 80vh;
+    
+}
+
+
+.container6text{
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 40px 46px 208px 45px;
+}
+
+.ekaterina{
+    font-family: 'Roboto Slab';
+    margin-top: -150px;
+    margin-left: 250px;
+    font-size: 17px;
+    
+}
+
+
+.section6image1{
+    display: flex;
+    margin-top: -170px;
+    margin-left: 30px;
+
+}
+
+.section6image2{
+    margin-left: 250px ;
+}
+
+.section6{
+    width: 100%;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+    .section6{
+ width: 100% !important
+    
+    }
+  body{
+    width: 120%;
+  }
+
+
+     }
+
+
+     @media screen and (max-width: 991px) {
+       
+       body{
+        width: 120%;
+       }
+       .section6 h1{
+        font-size: 54px;
+        width: 500px;
+        padding-right: 170px;
+       }
+       .container6{
+        height: 70vh;
+
+    
+       margin-left: 90px !important;
+       
+       
+    }
+        
+       
+        .container6text{
+            font-size: 26px;
+        }
+        .ekaterina{
+            font-size: 26px;
+        }
+
+    }
